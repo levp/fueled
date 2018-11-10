@@ -1,0 +1,14 @@
+{
+  "name": "fueled",
+  "author": "Levi Perelman",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "browser-sync start --server web --watch --files 'web/index.html' --files 'web/dist/**/*.js' --no-notify --no-online --no-ui --no-ghost-mode"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "typescript": "^3.1.6"
+  }
+}

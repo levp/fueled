@@ -1,0 +1,9 @@
+body {
+	margin: 0;
+	background-color: #444;
+}
+
+#game-canvas {
+	position: absolute;
+	background-color: #000;
+}
